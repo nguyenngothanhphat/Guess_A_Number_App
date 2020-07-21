@@ -1,6 +1,8 @@
+// Import packages
 import React, {useState} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
+// Import utils
 import Header from './components/Header';
 import StartGameScreen from './screens/StartGameScreen';
 
@@ -13,6 +15,7 @@ const App = () => {
   )
 }
 
+// Styles
 const styles = StyleSheet.create({
   screen: {
     flex: 1

@@ -1,3 +1,4 @@
+// Import packages
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
@@ -9,6 +10,7 @@ const Header = (props) => {
   );
 }
 
+// Styles
 const styles = StyleSheet.create({
   header: {
     width: '100%',
