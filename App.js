@@ -12,14 +12,14 @@ const App = () => {
       <Header title="Guess a Number" />
       <StartGameScreen />
     </View>
-  )
-}
+  );
+};
 
 // Styles
 const styles = StyleSheet.create({
   screen: {
-    flex: 1
-  }
-})
+    flex: 1,
+  },
+});
 
 export default App;
