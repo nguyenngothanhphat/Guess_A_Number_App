@@ -2,13 +2,16 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
+// Import colors
+import Color from '../core/styles/Colors';
+
 const Header = (props) => {
   return (
     <View style={styles.header}>
       <Text style={styles.headerTitle}>{props.title}</Text>
     </View>
   );
-}
+};
 
 // Styles
 const styles = StyleSheet.create({
@@ -18,12 +21,12 @@ const styles = StyleSheet.create({
     paddingTop: 33,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#f7287b'
+    backgroundColor: Color.primary,
   },
   headerTitle: {
     color: 'white',
-    fontSize: 18
-  }
-})
+    fontSize: 18,
+  },
+});
 
 export default Header;
